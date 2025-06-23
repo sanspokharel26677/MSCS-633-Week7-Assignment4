@@ -1,0 +1,43 @@
+Manifest File - Credit Card Fraud Detection Assignment
+------------------------------------------------------
+
+📁 Files included in this submission:
+
+1. fraud_detection.py      - Main Python script implementing fraud detection using PyOD AutoEncoder.
+2. creditcard.csv          - Input dataset with anonymized credit card transactions.
+3. README.md               - Contains setup instructions, dependencies, and summary of evaluation results.
+4. manifest.txt            - This manifest file describing project structure and setup.
+
+⚙️ Environment Details:
+
+- Python Version: 3.13
+- Operating System: macOS (Apple Silicon)
+- Virtual Environment: Yes (created using `python3 -m venv venv`)
+
+📦 Required Python Libraries:
+
+- pandas
+- numpy
+- scikit-learn
+- pyod
+- torch
+- tqdm
+- seaborn
+- matplotlib
+
+▶️ How to Run:
+
+1. Activate the virtual environment:
+   source venv/bin/activate
+
+2. Install required dependencies:
+   pip install pandas numpy scikit-learn pyod torch tqdm seaborn matplotlib
+
+3. Run the script:
+   python3 fraud_detection.py
+
+📌 Notes:
+
+- Model used: AutoEncoder (unsupervised deep learning) from PyOD
+- Dataset Source: Kaggle Fraud Detection Dataset
+- Output includes classification report, confusion matrix, and ROC-AUC score.
