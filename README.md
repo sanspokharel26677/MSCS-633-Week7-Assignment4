@@ -10,6 +10,8 @@ This project uses an **unsupervised deep learning model** from the PyOD library 
 - Records: 284,807 transactions
 - Fraud cases: 492
 - Class distribution is highly imbalanced.
+-⚠️ The dataset file (creditcard.csv) exceeds GitHub’s 100 MB limit and is not uploaded.
+Please download it directly from Kaggle Fraud Detection Dataset.
 
 ---
 
